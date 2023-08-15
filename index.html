@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                MyPortofolio
+            </div>
+            <ul>
+                <li class="a"><a href="#about">About</a></li>
+                <li class="a"><a href="#skill">Skills</a></li>
+                <li class="a"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Artikel 1 -->
+        <article id="about">
+            <div class="image">
+                <img src="pngegg.png" alt="gambar coding">
+            </div>
+
+            <div class="content1">
+                <h3>Hi, I'm </h3>
+                <h2>Achmadin Arya P</h2>
+                <p>Saya seorang murid di SMK KRIAN 1 SIDOARJO. </p>
+
+                <button id="downloadButton">
+                    <a href="CV.pdf">Download CV</a>
+                </button>
+            </div>
+        </article>
+
+        <!-- Article 2 -->
+        <article id="skill">
+            <h2>Skills</h2>
+            <!-- Skill 1 -->
+            <div class="content2">
+            <section class="card">
+                <img src="3.png" alt="gambar coding" width="20%">
+
+                <h3>Pemrograman</h3>
+            </section>
+
+            <!-- Skill 2 -->
+            <section class="card">
+                <img src="2.png" alt="gambar coding" width="20%">
+
+                <h3>Jaringan</h3>
+            </section>
+
+            <!-- Skill 3 -->
+            <section class="card">
+                <img src="1.png" alt="gambar coding" width="20%">
+
+                <h3>Desain</h3>
+            </section>
+            </div>
+        </article>
+
+    <!-- Fieldset -->
+
+        <form id="contact">
+            <fieldset>
+                <h2>Kontak Saya</h2>
+                <p>Jika Ada Pekerjaan Atau Komentar Silahkan Hubungi Saya.
+                </p>
+                <br>
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">NAMA</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Masukkan Nama..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">EMAIL</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="email" name="email" placeholder="Masukkan Email..">
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-25">
+                      <label for="subject">PESAN</label>
+                    </div>
+                    <div class="col-75">
+                      <textarea id="subject" name="subject" placeholder="Tuliskan sesuatu".." style="height:200px"></textarea>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="row">
+                    <input type="submit" value="Submit">
+                  </div>
+                  </form>
+                </div>
+                
+            </fieldset>
+        </form>
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+        <p>MyPortofolio &copy; A.A.P </p>
+    </footer>
+</body>
+</html>
+</body>
+</html>
