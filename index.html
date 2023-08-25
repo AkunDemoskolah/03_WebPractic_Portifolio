@@ -6,6 +6,13 @@
     <title>Web Portofolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <script src="vue.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        export default {
+          name: 'App'
+        }
+      </script>
 </head>
 <body>
     <header>
@@ -14,8 +21,8 @@
                 MyPortofolio
             </div>
             <ul>
-                <li class="a"><a href="#about">About</a></li>
-                <li class="a"><a href="#skill">Skills</a></li>
+                <li class="a"><a href="#about"><i class="fa fa-fw fa-user"></i>About</a></li>
+                <li class="a"><a href="#skill"><font-awesome-icon icon="fa-regular fa-laptop-code" />Skills</a></li>
                 <li class="a"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -33,7 +40,7 @@
                 <p>Saya seorang murid di SMK KRIAN 1 SIDOARJO. </p>
 
                 <button id="downloadButton">
-                    <a href="CV.pdf">Download CV</a>
+                    <a href="CV.pdf">My.CV</a>
                 </button>
             </div>
         </article>

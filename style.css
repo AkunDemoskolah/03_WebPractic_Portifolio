@@ -4,6 +4,7 @@ body {
     font-family: 'Lobster', cursive;
     margin: auto;
     padding: auto;
+    background-color: #b0e3fff7;
 }
 
 header {
@@ -90,16 +91,35 @@ article .content1 h2{
     margin: 3px;
 }
 .content1 button{
-    background-color: #39A2DB;
+    background-image: linear-gradient(to left,#c51ff3,#8d48e7,#39a2db,#1897dc);
     padding: 15px;
     margin-top: 10px;
     border: 1px solid #39A2DB;
     border-radius: 30px;
     cursor: pointer;
+    width: 100px;
+    height: 50px;
+    color: #ffffff;
+    position: absolute;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    float: left;
+    margin: 5px;
+    transition-property: width,height,transform,background,font-size,opacity;
+    transition-duration: 1s,1s,1s,1s,1s,1s;
+    border-radius: 5px;
+    opacity: 0.8
 }
 .content1 button:hover{
     color: #39A2DB;
-    background-color: transparent;
+    background-image: linear-gradient(-45deg,#c51ff3,#8d48e7,#39a2db,#1897dc);
+    width: 140px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    opacity: 2;
+    transition: 0.6s;
 }
 .content1 button a{
     color: #004386;
@@ -142,7 +162,7 @@ article #skill {
     text-align: center;
 }
 fieldset {
-    background-color: #39A2DB;
+    background-image: linear-gradient(#1897dc,#39a2db,#8d48e7,#c51ff3);
     margin: 30px;
     border: 1px solid transparent;
     border-radius: 30px;
